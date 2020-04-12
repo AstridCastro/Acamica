@@ -1,0 +1,286 @@
+*{
+    border: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main {
+    width: 100%;
+}
+  .general{
+    margin-left: 100px;
+    margin-right: 140px;
+}
+  .bienvenidos{
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    color: white;
+}
+.devolver{
+    height: 24px;
+    width: 24px;
+    margin-left: 60px;
+    margin-right: 7px;
+}
+.logo2{
+    width: 99.6px;
+    padding: 3px;
+}
+.encabezado_logo{
+    display: flex;
+    align-items:center;
+    margin-top:59px;
+}
+.item{
+    list-style-type: none;
+    padding-bottom:4px;
+}
+
+.nuevo_gif{
+    display:flex;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.container{
+    margin-top:16px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    width: 684px;
+    margin-left: 378px;
+}
+.container header{
+    color:white;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding:3px;
+    margin: 2px;
+    width: 676px;
+}
+
+.chequeo {
+    width: 854px;
+    margin-left: 276px;
+}
+
+#chequeo, #chequeo2{
+    width: 845px;
+}
+.captura{
+    display: flex;
+    justify-content: flex-end;
+}
+.camara{
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 36px;
+    margin-bottom: 16px;
+}
+.capturar{
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    height: 36px;
+    width: 144px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+
+}
+.container video{
+    padding:11px;
+}
+.window{
+    margin-left: 25px;
+    margin-right: 16px;
+    height: 32px;
+}
+.guifnuevo{
+    margin-top:17px ;
+}
+
+.item li{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.botones2{
+    display: flex;
+    justify-content: flex-end;
+}
+.cancelar,.repetir, .cancelar2 {
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 16px;
+    height: 36px;
+    width: 144px;
+    margin-bottom: 36px;
+    margin-top:28px;
+    margin-right: 5px;
+}
+
+.comenzar,.subir {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 16px;
+    height: 36px;
+    width: 144px;
+    margin-bottom: 36px;
+    margin-right: 36px;
+    margin-top:28px;
+}
+
+.repetir, .subir, .cancelar2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.titulo{
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    margin-top:64px;
+    padding-left: 7px;
+}
+.recording{
+    height: 36px;
+    width: 36px;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.listo  {
+    color:white;
+    font-size: 16px;
+    height: 36px;
+    width: 144px;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+}
+#gif{
+    height:434px;
+    width: 832px;
+    padding:11px;
+}
+
+.subiendo {
+    height:434px;
+    width: 832px;
+    margin:11px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subiendo h3 {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 41px;
+}
+
+.subiendo .load {
+    background: #B4B4B4;
+    box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+    width: 324px;
+    height: 24px;
+    display: flex;
+}
+
+.subiendo .rosado {
+    background: #F7C9F3;
+    width: 12px;
+    height: 19px;
+    margin: 3px;
+    margin-right: 0;
+}
+
+.subiendo .gris {
+    background-color: #999999;
+    width: 12px;
+    height: 19px;
+    margin: 3px;
+    margin-right: 0;
+}
+
+.subiendo p {
+    font-size: 12px;
+    color: rgba(17,0,56,0.64);
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.done {
+    width: 721px;
+}
+
+.done #chequeo2 {
+    width: 711px;
+}
+
+.success {
+    display: flex;
+}
+
+.done .listo_done {
+    width: 144px;
+    height: 36px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.done .botones {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 46px;
+    padding-right: 46px;
+}
+
+.success .gif_subido {
+    width: 663px;
+    height: 191px;
+    margin: 27px;
+}
+
+.success h3 {
+    margin-bottom: 16px;
+}
+
+.success .content {
+    margin-top: 50px;
+}
+
+.success button {
+    width: 256px;
+    height: 36px;
+}
+
+.no_display{
+    display:none;
+}
+
+#resultsGuifos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 16px;
+}

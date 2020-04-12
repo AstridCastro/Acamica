@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Podcast</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2abba01a6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="menu-toggle" />
+      <nav>
+        <div class="navigation">
+          <img class="logo" src="./images/logo.svg" alt="logo" />
+          <label for="menu-toggle">
+            <i class="fas fa-bars hamb"></i><i class="fas fa-times close"></i>
+          </label>
+        </div>
+        <ul id="menu">
+          <li class="item"><a href="#episodios">EPISODIOS</a></li>
+          <li class="item"><a href="#nosotros">NOSOTROS</a></li>
+          <li class="item"><a href="#entrevistas">ENTREVISTAS</a></li>
+          <li class="item"><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+      </nav>
+      <h1 class="hello">
+        Hello <span class="tachado"> world </span> pale blue dot<span
+          class="punto"
+          >.</span
+        >
+      </h1>
+      <p>
+        El portal de podcast que explora el mundo de la programación y la
+        tecnología. Nuevos episodios, todos los jueves cada 15 días.
+      </p>
+      <div>
+        <button class="conocer"><a href="#nosotros">CONOCÉ MÁS</button></a>
+      </div>
+    </header>
+
+    <section id="episodios">
+      <div class="episodios">
+        <h2>Episodios</h2>
+        <div class="musica">
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/6lzD9VWNM40HAxkVz0a8NX"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <div class="phone">
+      <img src="./images/phone.png" alt="phone" />
+    </div>
+    <section id="nosotros">
+      <div class="phone2">
+        <img src="./images/phone.png" alt="phone" />
+      </div>
+
+      <div class="donde">
+        <h2>De dónde venimos</h2>
+
+        <p>
+          Our posturing, our imagined self-importance, the delusion that we have
+          some privileged position in the Universe, are challenged by this point
+          of pale light.
+        </p>
+        <p>
+          Our planet is a lonely speck in the great enveloping cosmic dark. In
+          our obscurity, in all this vastness, there is no hint that help will
+          come from elsewhere to save us from ourselves.
+        </p>
+      </div>
+    </section>
+
+    <section id="entrevistas">
+      <h2 class="invitados_estelares">Invitadas/os estelares</h2>
+
+      <div class="imagenes">
+        <img
+          class="invitados"
+          src="./images/grace-hopper.png"
+          alt="grace-hopper"
+        />
+
+        <img
+          class="invitados"
+          src="./images/katie-bouman.png"
+          alt="katie-bouman"
+        />
+
+        <img
+          class="invitados"
+          src="./images/margaret-hamilton.png"
+          alt="margaret-hamilton"
+        />
+
+        <img class="invitados" src="./images/E-R-A.png" alt="E-R-A" />
+
+        <img class="invitados" src="./images/computer.png" alt="computer" />
+
+        <img class="invitados" src="./images/susan-kare.png" alt="susan-kare" />
+      </div>
+    </section>
+
+    <section id="topicos">
+      <h2 class="temas">Algunos de nuestros temas</h2>
+
+      <div class="iconos">
+        <div class="prueba">
+          <img class="icono" src="./images/icon1.svg" alt="icon1" />
+          <h3 class="titulo">Trabajo remoto</h3>
+        </div>
+
+        <div class="prueba">
+          <img class="icono" src="./images/icon2.svg" alt="icon2" />
+          <h3 class="titulo titulo2">Repensando la programación</h3>
+        </div>
+
+        <div class="prueba">
+          <img class="icono" src="./images/icon3.svg" alt="icon3" />
+          <h3 class="titulo">Bases del código</h3>
+        </div>
+
+        <div class="prueba">
+          <img class="icono" src="./images/icon4.svg" alt="icon4" />
+          <h3 class="titulo">Seguridad informática</h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="novedades">
+      <h2 class="novedades2">¿Querés las últimas novedades?</h2>
+      <button class="escuchar"><a href="#episodios">ESCUCHÁ LOS EPISODIOS</a></button>
+    </div>
+
+    <footer>
+      <p class="footer">© 2019— Hello blue pale dot</p>
+      <div class="redes">
+        <a href="https://www.spotify.com/co/" target="_blank"><i class="fab fa-spotify"></i></a>
+        <a href="https://www.instagram.com/astrid_castro_ma/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/Yamile_Castro" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/AstridYamile1" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://web.telegram.org/#/login" target="_blank"><i class="fab fa-telegram"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

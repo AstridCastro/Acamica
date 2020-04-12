@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <link rel="stylesheet" href="styles/styles2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="bienvenidos main">¡Bienvenidos/as a Guifos.com!------Donde los gifs están.//////Número de
+                visitas: 12.765.803</div>
+            <div class="encabezado_logo">
+                <img onclick="devolver()" class="devolver" src="./assets/arrow.svg" alt="devolver">
+                <img class="logo2" src="./assets/gifOF_logo.png" alt="logo">
+            </div>
+        </nav>
+        <div class="container chequeo container_chequeo">
+            <header id="chequeo">Un Chequeo antes de Empezar
+                <img src="./assets/close.svg" alt="cerrar">
+            </header>
+            <video id="video"></video>
+            <img id="gif" src="./assets/test.png" class="no_display" alt="gif" />
+            <div class="subiendo no_display">
+                <img src="./assets/globe_img.png" alt="globo">
+                <h3>Estamos subiendo tu guifo...</h3>
+                <div class="load">
+                </div>
+                <p>Tiempo restante: 38 años algunos minutos</p>
+            </div>
+            <div class="captura">
+                <button class="recording no_display"><img src="./assets/recording.svg" alt="recording"></button>
+                <button class="listo no_display" onclick="stop()">Listo</button>
+                <button class="camara" onclick="capturar()"><img src="./assets/camera.svg" alt="camara"></button>
+                <button class="capturar" onclick="capturar()">Capturar</button>
+                <button class="repetir no_display" onclick="repetir()">Repetir Captura</button>
+                <button class="subir no_display" onclick="subir()">Subir Guifo</button>
+                <button class="cancelar2 no_display">Cancelar</button>
+            </div>
+        </div>
+        <div class="container done no_display">
+            <header id="chequeo2">Guifo Subido Con Éxito
+            </header>
+            <div class="success">
+                <img src="./assets/test.png" class="gif_subido" alt="gif_subido" />
+                <div class="content">
+                    <h3>Guifo creado con éxito</h3>
+                    <button class="cancelar2">Copiar Enlace Guifo</button>
+                    <button class="cancelar2">Descargar Guifo</button>
+                </div>
+            </div>
+            <div class="botones">
+                <button onclick="redirectMiGuifos()" class="listo_done">Listo</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js"></script>
+    <script src="./upload.js"></script>
+</body>
+
+</html>

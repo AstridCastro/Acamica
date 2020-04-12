@@ -1,0 +1,201 @@
+*{
+    border: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main {
+      background-color: #120139;
+      width: 100%;
+  }
+  .general{
+      margin-left: 100px;
+      margin-right: 140px;
+  }
+
+  .bienvenidos{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+  }
+  .navigation{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .botones{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 144px;
+  }
+  .logo{
+      margin-left: 91px;
+      margin-top:59px;
+      width: 99.6px;
+      padding: 3px;
+  }
+  .botones button{
+      background: #EE3EFE;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+      font-size: 16px;
+      height: 36px;
+      margin-top:68px;
+  }
+  .crear{
+      width: 144px;
+      margin-right:16px;
+  }
+
+  .elegir{
+      width: 131px;
+  }
+
+  .dropdown{
+      width: 36px;
+      margin-right: 16.5px;
+  }
+
+  .guifos{
+      text-decoration:underline;
+  }
+
+  .botones p{
+      color: white;
+      margin-top:77px;
+      padding:3px;
+  }
+
+  .container{
+      margin-top:16px;
+      background: #E6E6E6;
+      box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  }
+
+  .container header{
+      color:white;
+      background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+      font-size: 14px;
+      padding:3px;
+      margin: 2px;
+  }
+
+  .buscar{
+      display: flex;
+  }
+  .buscar input{
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+      font-size: 16px;
+      color:#B4B4B4;
+      height:46px ;
+      width:100% ;
+      margin-left: 15px;
+      margin-right:8px;
+      margin-top:12px;
+      margin-bottom:12px;
+      padding-left: 16px;
+
+  }
+
+  .buscar button{
+      color:#B4B4B4;
+      background: #E6E6E6;
+      border: 1px solid #808080;
+      box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+      font-size: 16px;
+      height: 36px;
+      width: 102px;
+      margin-bottom: 18px;
+      margin-right: 18px;
+      margin-top: 18px;
+  }
+
+  .buscar img{
+      padding-right:10px;
+  }
+
+  .titulo{
+      background: #FFFAFE;
+      border: 1px solid #E6BBE2;
+      box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+      margin-top:64px;
+      padding-left: 7px;
+  }
+
+  .sugerencias{
+      display: flex;
+      justify-content:space-between;
+  }
+
+  .trending{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .trending img{
+      margin-top:17px ;
+  }
+
+  .encabezado{
+      color:white;
+      display: flex;
+      justify-content: space-between;
+      background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+      margin-top:19px;
+  }
+
+  .ver{
+      background: #4180F6;
+      border: 1px solid #4C2F99;
+      box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+      color:white;
+      position:absolute;
+      margin-top:231px;
+      margin-left:7px;
+      height: 34px;
+      width: 81px;
+      font-size:14px;
+  }
+
+  .buttons_themes {
+    display: flex;
+}
+
+.themes {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    width: 148px;
+    padding: 10px;
+    position: absolute;
+}
+
+  .themes button {
+    margin-top: 0;
+    display: block;
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    padding: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.themes button:first-child {
+    margin-bottom: 10px;
+    background-color: #FFF4FD;
+}
+
+.themes button:last-child{
+    background: #2E32FB;
+    border: 1px solid rgba(51,53,143,0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    color: white;
+
+}
+
+.no-display {
+    display: none;
+}
+
